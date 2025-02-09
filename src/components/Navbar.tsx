@@ -51,6 +51,13 @@ export default function Navbar() {
             >
               Events
             </Link>
+
+            {/* Admin Login Button */}
+            <Link to="/admin">
+              <button className="bg-[#04182E] text-white px-4 py-2 rounded-md hover:bg-[#2C6A8E] transition-colors">
+                Admin Login
+              </button>
+            </Link>
           </div>
         </div>
       </div>
