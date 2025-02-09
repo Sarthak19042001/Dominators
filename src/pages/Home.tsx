@@ -48,20 +48,25 @@ export default function Home() {
         </p>
 
         <div className="flex justify-center space-x-8">
-          {/* On Click, navigate to /events */}
-          <button
-            onClick={handleRegisterClick}
-            className="bg-[#3C84AC] text-white py-3 px-6 rounded-md hover:bg-[#04182E] transition-colors"
-          >
-            Register Now
-          </button>
-          <button
-            onClick={handleContactClick} // Handle scroll to Team Coordinator section
-            className="bg-transparent border-2 border-[#3C84AC] text-[#3C84AC] py-3 px-6 rounded-md hover:bg-[#3C84AC] hover:text-white transition-colors"
-          >
-            Contact Us
-          </button>
-        </div>
+  {/* Register Button */}
+  <button
+    onClick={handleRegisterClick}
+    className="relative bg-gradient-to-r from-[#3C84AC] to-[#2A6D8C] text-white py-3 px-8 rounded-lg shadow-lg 
+              transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
+  >
+    Register Now
+  </button>
+
+  {/* Contact Button */}
+  <button
+    onClick={handleContactClick}
+    className="relative border-2 border-[#3C84AC] text-[#3C84AC] py-3 px-8 rounded-lg shadow-md 
+              transition-all duration-300 transform hover:scale-105 hover:bg-[#3C84AC] hover:text-white hover:shadow-xl"
+  >
+    Contact Us
+  </button>
+</div>
+
       </div>
 
       {/* Team Section */}

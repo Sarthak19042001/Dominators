@@ -17,7 +17,7 @@ export default function About() {
 
           <h2 className="text-2xl font-semibold mb-4">Our Tech Fest</h2>
           <p className="text-gray-700 mb-6">
-            Our annual Tech Fest is more than just an event - it's a celebration of technology,
+            This Tech Fest is more than just an event - it's a celebration of technology,
             innovation, and creativity. We bring together students from various disciplines to
             compete, learn, and grow through a diverse range of technical and creative events.
           </p>
