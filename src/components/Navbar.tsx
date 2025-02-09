@@ -16,7 +16,7 @@ export default function Navbar() {
                 <Code2 className="h-8 w-8 text-white" />
               ) : (
                 <img
-                  src="\public\logo.svg"
+                  src="/logo.svg"
                   alt="Dominators Logo"
                   className="h-16 w-16 object-contain transition-transform duration-300 transform hover:scale-110"
                   onError={() => setLogoError(true)}
