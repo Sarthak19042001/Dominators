@@ -20,10 +20,13 @@ export default function EventCard({ event }: EventCardProps) {
         <span className="text-lg">{event.eventHeads.map(head => head.name).join(', ')}</span>
       </div>
       
-      {event.judge && (
-        <div className="flex items-center space-x-2 text-white opacity-80">
-          <Calendar className="h-5 w-5 text-[#FFF]" />
-          <span className="text-lg">Judge: {event.judge}</span>
+      {/* Display event rules */}
+      {event.rules && (
+        <div className="flex flex-col space-y-1 text-white opacity-80">
+          <span className="text-lg font-semibold">Rules:</span>
+          {event.rules.map((rule, index) => (
+            <span key={index} className="text-lg">- {rule}</span>
+          ))}
         </div>
       )}
       

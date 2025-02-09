@@ -1,4 +1,3 @@
-// /data/events.ts
 export const events = [
   {
     id: 'terminal-stack',
@@ -7,8 +6,12 @@ export const events = [
       { name: 'Chaithali S', photo: '/event-heads/terminal-stack-chaithali.jpg.jpg' },
       { name: 'Bhavish Kumar', photo: '/event-heads/terminal-stack-bhavish.jpg.jpg' },
     ],
-    judge: 'Prof. Anil Kumar K',
     venue: 'MCA Lab 1',
+    rules: [
+      'Number of Participants: 2 per team',
+      'Number of Rounds: 3',
+      'Knowledge of C or Java is required',
+    ],
   },
   {
     id: 'code-craft',
@@ -17,8 +20,12 @@ export const events = [
       { name: 'Varun M C', photo: '/event-heads/code-craft-varun.jpg.jpg' },
       { name: 'Achintya M', photo: '/event-heads/code-craft-achintya.jpg.jpg' },
     ],
-    judge: 'Prof. Neema H',
     venue: 'MCA Lab 1',
+    rules: [
+      'Number of Participants: 2 per team',
+      'Number of Rounds: 2',
+      'Knowledge of HTML, CSS, and JavaScript is required',
+    ],
   },
   {
     id: 'quizardry',
@@ -27,8 +34,11 @@ export const events = [
       { name: 'Ruchitha K M', photo: '/event-heads/quizardry-ruchitha.jpg.jpg' },
       { name: 'Shalaka S Nayak', photo: '/event-heads/quizardry-shalaka.jpg.jpg' },
     ],
-    judge: 'Prof. Anirudha B G S',
     venue: 'A325',
+    rules: [
+      'Number of Participants: 2 per team',
+      'Number of Rounds: 3',
+    ],
   },
   {
     id: 'random-games',
@@ -39,6 +49,9 @@ export const events = [
       { name: 'Kripa A', photo: '/event-heads/random-games-kripa.jpg.jpg' },
     ],
     venue: 'A326',
+    rules: [
+      'It is a surprise! Come and find out!',
+    ],
   },
   {
     id: 'byte-buster',
@@ -48,6 +61,10 @@ export const events = [
       { name: 'Kruthika', photo: '/event-heads/byte-buster-kruthika.jpg.jpg' },
     ],
     venue: 'MCA Lab 2',
+    rules: [
+      'Number of Participants: 2 per team',
+      'Number of Rounds: 2',
+    ],
   },
   {
     id: 'frame-frenzy',
@@ -56,8 +73,11 @@ export const events = [
       { name: 'K Sumith Gatty', photo: '/event-heads/frame-frenzy-sumith.jpg.jpg' },
       { name: 'Vikyath B C', photo: '/event-heads/frame-frenzy-vikyath.jpg.jpg' },
     ],
-    judge: 'Prof. Rajeshwari M',
     venue: 'APJ Hall',
+    rules: [
+      'Number of Participants: 1',
+      'Number of Rounds: 1',
+    ],
   },
   {
     id: 'creative-craze',
@@ -66,7 +86,11 @@ export const events = [
       { name: 'Sarthak B', photo: '/event-heads/creative-craze-sarthak.jpg.jpg.jpg' },
       { name: 'Vibhashree M S', photo: '/event-heads/creative-craze-vibhashree.jpg.jpg' },
     ],
-    judge: 'Prof. Ramesha K, Prof. Poojalakshmi',
     venue: 'APJ Hall',
+    rules: [
+      'Number of Participants: 2-4 per team',
+      'Topics: Given on the spot',
+      'Communication: Must be in English',
+    ],
   },
 ];

@@ -91,7 +91,8 @@ export default function Admin() {
               <table className="min-w-full divide-y divide-[#A7B6C2]">
                 <thead className="bg-[#1A2A3D]">
                   <tr>
-                    <th className="px-6 py-3 text-left text-xs font-medium text-[#A7B6C2] uppercase tracking-wider">Name</th>
+                    <th className="px-6 py-3 text-left text-xs font-medium text-[#A7B6C2] uppercase tracking-wider">Team Name</th>
+                    <th className='px-6 py-3 text-left text-xs font-medium text-[#A7B6C2] uppercase tracking-wider'>Name</th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-[#A7B6C2] uppercase tracking-wider">Event</th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-[#A7B6C2] uppercase tracking-wider">Contact</th>
                     <th className="px-6 py-3 text-left text-xs font-medium text-[#A7B6C2] uppercase tracking-wider">Date</th>
@@ -101,6 +102,7 @@ export default function Admin() {
                 <tbody className="bg-[#1A2A3D] divide-y divide-[#A7B6C2]">
                   {registrations.map((registration) => (
                     <tr key={registration.id}>
+                      <td className="px-6 py-4 whitespace-nowrap text-[#FFF]">{registration.teamname}</td>
                       <td className="px-6 py-4 whitespace-nowrap text-[#FFF]">{registration.name}</td>
                       <td className="px-6 py-4 whitespace-nowrap text-[#FFF]">{registration.eventId}</td>
                       <td className="px-6 py-4 whitespace-nowrap text-[#FFF]">{registration.contactNumber}</td>

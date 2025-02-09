@@ -39,12 +39,12 @@ export default function Home() {
             </div>
           )}
         </div>
-        <h1 className="text-5xl font-bold text-[#FFF] mb-4">Dominators</h1>
+        <h1 className="text-5xl font-bold text-[#FFF] mb-4">Uthkarsh</h1>
         <p className="text-xl text-[#3C84AC] mb-8">Welcome to our Tech Fest 2025</p>
 
         <p className="text-lg text-[#A7B6C2] max-w-3xl mx-auto mb-8">
           Join us for an exciting journey through the latest innovations in technology! 
-          The Dominators Tech Fest 2024 brings together passionate tech enthusiasts to explore, learn, and connect.
+          The Dominators Uthkarsh 2025 brings together passionate tech enthusiasts to explore, learn, and connect.
         </p>
 
         <div className="flex justify-center space-x-8">
@@ -71,7 +71,7 @@ export default function Home() {
 
       {/* Team Section */}
       <div ref={teamCoordinatorRef} className="mt-16 flex flex-col items-center text-center">
-        <h2 className="text-3xl font-semibold text-[#FFF] mb-6">Meet the Team</h2>
+        <h2 className="text-3xl font-semibold text-[#FFF] mb-6">Meet the Team!</h2>
         <div className="w-48 h-48 rounded-full overflow-hidden mb-4">
           {/* Replace with actual team coordinator photo */}
           <img
@@ -80,30 +80,125 @@ export default function Home() {
             className="w-full h-full object-cover"
           />
         </div>
-        <h3 className="text-2xl font-semibold text-[#FFF]">Team Coordinator</h3>
-        <p className="text-[#3C84AC]">Prof. Aniruddha B G S</p>
+        <h3 className="text-2xl font-semibold text-[#FFF]">Staff Coordinator</h3>
+        <p className="text-[#3C84AC]">Prof. Anirudha B G S</p>
       </div>
 
-      {/* Event Features Section */}
-      <div className="bg-[#1A2A3D] py-12 mt-16">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-semibold text-[#FFF] mb-6">Event Features</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            <div className="bg-[#3C84AC] text-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
-              <h3 className="text-xl font-semibold mb-4">Innovative Workshops</h3>
-              <p>Participate in hands-on workshops led by industry professionals.</p>
-            </div>
-            <div className="bg-[#3C84AC] text-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
-              <h3 className="text-xl font-semibold mb-4">Networking Opportunities</h3>
-              <p>Connect with experts and peers in the tech industry.</p>
-            </div>
-            <div className="bg-[#3C84AC] text-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
-              <h3 className="text-xl font-semibold mb-4">Tech Talks</h3>
-              <p>Attend inspiring talks and presentations from tech leaders.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+
+      {/* Student Coordinators */}
+      <div className="mt-16 flex flex-wrap justify-center max-w-[1300px] mx-auto">
+  {/* First Row (5 items) */}
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/creative-craze-sarthak.jpg.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Sarthak B</p>
+  </div>
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/byte-buster-kruthika.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Kruthika K J</p>
+  </div>
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/code-craft-varun.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Varun M C</p>
+  </div>
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/random-games-likitha.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Likitha</p>
+  </div>
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/creative-craze-vibhashree.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Vibhashree M</p>
+  </div>
+
+  {/* Second Row (5 items) */}
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/byte-buster-kriti.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Krithi</p>
+  </div>
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/code-craft-achintya.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Achinthya</p>
+  </div>
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/frame-frenzy-sumith.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Sumith</p>
+  </div>
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/quizardry-ruchitha.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Ruchitha</p>
+  </div>
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/quizardry-shalaka.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Shalaka</p>
+  </div>
+
+  {/* Third Row (5 items) */}
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/random-games-jyothi.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Jyothi</p>
+  </div>
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/random-games-kripa.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Kripa</p>
+  </div>
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/terminal-stack-bhavish.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Bhavish</p>
+  </div>
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="event-heads/terminal-stack-chaithali.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Chaitali S</p>
+  </div>
+  <div className="w-56 mb-8 mx-2 text-center basis-1/5">
+    <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
+      <img src="/" alt="Team Coordinator" className="w-full h-full object-cover" />
+    </div>
+    <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
+    <p className="text-[#3C84AC]">Vikhyath B C</p>
+  </div>
+</div>
+
 
       {/* Gallery Section */}
       <div className="py-12 mt-16">
@@ -141,7 +236,7 @@ export default function Home() {
       </div>
 
       {/* Style section for logo zoom animation */}
-      <style jsx="true">{`
+      <style>{`
         .logo {
           animation: zoomOutIn 5s ease-in-out 1, zoomInOutContinuous 2s ease-in-out infinite 2s;
         }
