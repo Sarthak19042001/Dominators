@@ -31,7 +31,7 @@ export default function Home() {
           ) : (
             <div className="w-48 h-48 rounded-full overflow-hidden mb-4">
               <img
-                src="\public\logo.svg"
+                src="/logo.svg"
                 alt="Dominators Logo"
                 className="logo h-full w-full object-contain"
                 onError={() => setLogoError(true)}
@@ -75,7 +75,7 @@ export default function Home() {
         <div className="w-48 h-48 rounded-full overflow-hidden mb-4">
           {/* Replace with actual team coordinator photo */}
           <img
-            src="\public\anirudha.jpg"
+            src="/anirudha.jpg"
             alt="Team Coordinator"
             className="w-full h-full object-cover"
           />
