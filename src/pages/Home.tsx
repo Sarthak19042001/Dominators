@@ -90,35 +90,35 @@ export default function Home() {
   {/* First Row (5 items) */}
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\creative-craze-sarthak.jpg.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/creative-craze-sarthak.jpg.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Sarthak B</p>
   </div>
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\byte-buster-kruthika.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/byte-buster-kruthika.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Kruthika K J</p>
   </div>
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\code-craft-varun.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/code-craft-varun.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Varun M C</p>
   </div>
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\random-games-likitha.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/random-games-likitha.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Likitha</p>
   </div>
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\creative-craze-vibhashree.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/creative-craze-vibhashree.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Vibhashree M</p>
@@ -127,35 +127,35 @@ export default function Home() {
   {/* Second Row (5 items) */}
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\byte-buster-kriti.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/byte-buster-kriti.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Krithi</p>
   </div>
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\code-craft-achintya.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/code-craft-achintya.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Achinthya</p>
   </div>
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\frame-frenzy-sumith.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/frame-frenzy-sumith.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Sumith</p>
   </div>
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\quizardry-ruchitha.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/quizardry-ruchitha.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Ruchitha</p>
   </div>
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\quizardry-shalaka.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/quizardry-shalaka.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Shalaka</p>
@@ -164,28 +164,28 @@ export default function Home() {
   {/* Third Row (5 items) */}
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\random-games-jyothi.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/random-games-jyothi.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Jyothi</p>
   </div>
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\random-games-kripa.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/random-games-kripa.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Kripa</p>
   </div>
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\terminal-stack-bhavish.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/terminal-stack-bhavish.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Bhavish</p>
   </div>
   <div className="w-56 mb-8 mx-2 text-center basis-1/5">
     <div className="w-48 h-48 rounded-full overflow-hidden mb-4 mx-auto">
-      <img src="event-heads\terminal-stack-chaithali.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
+      <img src="event-heads/terminal-stack-chaithali.jpg.jpg" alt="Team Coordinator" className="w-full h-full object-cover" />
     </div>
     <h3 className="text-2xl font-semibold text-[#FFF]">Student Coordinator</h3>
     <p className="text-[#3C84AC]">Chaitali S</p>
