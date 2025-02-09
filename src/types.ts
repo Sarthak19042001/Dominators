@@ -5,12 +5,13 @@ export interface Event {
     name: string;
     photo?: string;
   }[];
-  judge?: string;
+  rules?: string[];
   venue: string;
 }
 
 export interface Registration {
   id: string;
+  teamname: string;
   name: string;
   eventId: string;
   contactNumber: string;

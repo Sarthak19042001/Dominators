@@ -9,6 +9,7 @@ export default function EventRegistration() {
   const event = events.find(e => e.id === eventId);
 
   const [formData, setFormData] = useState({
+    teamname: '',
     name: '',
     contactNumber: ''
   });
@@ -23,6 +24,7 @@ export default function EventRegistration() {
     // Create new registration
     const newRegistration: Registration = {
       id: crypto.randomUUID(),
+      teamname: formData.teamname,
       name: formData.name,
       eventId: event.id,
       contactNumber: formData.contactNumber,
@@ -66,17 +68,28 @@ export default function EventRegistration() {
           <h2 className="text-2xl font-semibold text-[#FFF] mb-6">Registration Form</h2>
           
           <form onSubmit={handleSubmit} className="space-y-6">
-            <div>
-              <label className="block text-[#FFF] mb-2">Name</label>
-              <input
-                type="text"
-                required
-                className="w-full px-6 py-3 border border-[#3C84AC] rounded-md focus:outline-none focus:ring-2 focus:ring-[#04182E] bg-[#1A2A3D] text-[#FFF] placeholder-[#A7B6C2]"
-                value={formData.name}
-                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                placeholder="Enter your name"
-              />
-            </div>
+          <div>
+  <label className="block text-[#FFF] mb-2">Team Name</label>
+  <input
+    type="text"
+    required
+    className="w-full px-6 py-3 border border-[#3C84AC] rounded-md focus:outline-none focus:ring-2 focus:ring-[#04182E] bg-[#1A2A3D] text-[#FFF] placeholder-[#A7B6C2]"
+    value={formData.teamname}
+    onChange={(e) => setFormData({ ...formData, teamname: e.target.value })}
+    placeholder="Enter your team name"
+  />
+</div>
+<div>
+  <label className="block text-[#FFF] mb-2">Name</label>
+  <input
+    type="text"
+    required
+    className="w-full px-6 py-3 border border-[#3C84AC] rounded-md focus:outline-none focus:ring-2 focus:ring-[#04182E] bg-[#1A2A3D] text-[#FFF] placeholder-[#A7B6C2]"
+    value={formData.name}
+    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+    placeholder="Enter your name"
+  />
+</div>
 
             <div>
               <label className="block text-[#FFF] mb-2">Contact Number</label>

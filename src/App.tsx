@@ -7,6 +7,7 @@ import Events from './pages/Events';
 import EventRegistration from './pages/EventRegistration';
 import Admin from './pages/Admin';
 
+
 function App() {
   return (
     <Router>
